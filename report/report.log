@@ -1,0 +1,89 @@
+This is e-pTeX, Version 3.1415926-p3.2-110825-2.3 (sjis) (TeX Live 2011/W32TeX) (format=platex 2011.9.9)  12 FEB 2012 22:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report
+(./report.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2011/06/27> patch level 0)
+Babel <v3.8m> and hyphenation patterns for english, german-x-2009-06-19, ngerma
+n-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabic, armenian, basque, bulg
+arian, catalan, pinyin, coptic, croatian, czech, danish, dutch, ukenglish, usen
+glishmax, esperanto, estonian, ethiopic, farsi, finnish, french, galician, germ
+an, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese, ben
+gali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, telu
+gu, indonesian, interlingua, irish, italian, kurmanji, lao, latin, latvian, lit
+huanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, romanian
+, russian, sanskrit, serbian, serbianc, slovak, slovenian, spanish, swedish, tu
+rkish, turkmen, ukrainian, uppersorbian, welsh, dumylang, nohyphenation, loaded
+.
+(c:/w32tex/share/texmf/tex/platex/base/jreport.cls
+Document Class: jreport 2006/06/27 v1.6 Standard pLaTeX class
+\c@@paper=\count81
+(c:/w32tex/share/texmf/tex/platex/base/jsize10.clo
+File: jsize10.clo 2006/06/27 v1.6 Standard pLaTeX file (size option)
+)
+\c@part=\count82
+\c@chapter=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 677.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count91
+) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+ [1
+
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 11.
+
+[1] [2] [3] [4] [5]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 203.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 203.
+ [6] (./report.aux) ) 
+Here is how much of TeX's memory you used:
+ 296 strings out of 494065
+ 3072 string characters out of 3159888
+ 58411 words of memory out of 3000000
+ 3805 multiletter control sequences out of 15000+200000
+ 11192 words of font info for 45 fonts, out of 3000000 for 9000
+ 745 hyphenation exceptions out of 8191
+ 22i,6n,19p,169b,314s stack positions out of 5000i,500n,10000p,500000b,50000s
+
+Output written on report.dvi (7 pages, 7988 bytes).

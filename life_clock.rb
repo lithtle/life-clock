@@ -1,6 +1,26 @@
 #! /usr/bin/ruby -Ku
 # -*- coding:utf-8 -*-
 
+=begin
+one line to give the program's name and an idea of what it does.
+
+Copyright (C) 2012 Yusuke Kurihana
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by the
+Free Software Foundation; either version 2 of the License,
+or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+=end
+
 # life_clock.rb は 一生を24時間に例えた時の今日の時間を表示するプログラムである
 
 # 秒(float型)で与えられる時間を [時間,分,秒]に直す
@@ -87,6 +107,8 @@ def main
     puts "usage: ruby #{$0} your_birthmonth your_birthday"
     exit(1)
   end
+  
+  puts Time.now
 
   puts "(i)"
   puts "n = 80"
