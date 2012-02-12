@@ -150,7 +150,7 @@
 
           
           <div class="method-source-code" id="invalid_argv-3F-source">
-            <pre><span class="ruby-comment"># File life_clock.rb, line 60</span>
+            <pre><span class="ruby-comment"># File life_clock.rb, line 80</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">invalid_argv?</span>
   <span class="ruby-identifier">ret</span> = <span class="ruby-keyword">false</span>
   <span class="ruby-identifier">month</span> = <span class="ruby-constant">ARGV</span>[<span class="ruby-value">0</span>].<span class="ruby-identifier">to_i</span>
@@ -212,7 +212,7 @@
 
           
           <div class="method-source-code" id="life_clock-source">
-            <pre><span class="ruby-comment"># File life_clock.rb, line 42</span>
+            <pre><span class="ruby-comment"># File life_clock.rb, line 62</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">life_clock</span>(<span class="ruby-identifier">i</span>, <span class="ruby-identifier">j</span>, <span class="ruby-identifier">k</span>, <span class="ruby-identifier">m</span>)
   <span class="ruby-identifier">a</span> = <span class="ruby-identifier">i</span>
   <span class="ruby-identifier">b</span> = <span class="ruby-identifier">j</span>
@@ -258,7 +258,7 @@
 
           
           <div class="method-source-code" id="life_clock_to_string-source">
-            <pre><span class="ruby-comment"># File life_clock.rb, line 28</span>
+            <pre><span class="ruby-comment"># File life_clock.rb, line 48</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">life_clock_to_string</span>(<span class="ruby-identifier">obj</span>)
   <span class="ruby-identifier">h</span> = <span class="ruby-identifier">obj</span>[<span class="ruby-value">0</span>]
   <span class="ruby-identifier">m</span> = <span class="ruby-identifier">obj</span>[<span class="ruby-value">1</span>]
@@ -292,13 +292,15 @@
 
           
           <div class="method-source-code" id="main-source">
-            <pre><span class="ruby-comment"># File life_clock.rb, line 82</span>
+            <pre><span class="ruby-comment"># File life_clock.rb, line 102</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">main</span>
   <span class="ruby-keyword">if</span> <span class="ruby-constant">ARGV</span>.<span class="ruby-identifier">length</span> <span class="ruby-operator">!=</span> <span class="ruby-value">2</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">invalid_argv?</span>
     <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;invalid arguments&quot;</span>
     <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;usage: ruby #{$0} your_birthmonth your_birthday&quot;</span>
     <span class="ruby-identifier">exit</span>(<span class="ruby-value">1</span>)
   <span class="ruby-keyword">end</span>
+  
+  <span class="ruby-identifier">puts</span> <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>
 
   <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;(i)&quot;</span>
   <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;n = 80&quot;</span>
@@ -348,7 +350,7 @@
 
           
           <div class="method-source-code" id="sec2hour-source">
-            <pre><span class="ruby-comment"># File life_clock.rb, line 9</span>
+            <pre><span class="ruby-comment"># File life_clock.rb, line 29</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">sec2hour</span>(<span class="ruby-identifier">s</span>)
   <span class="ruby-identifier">hours</span> = <span class="ruby-value">0</span>
   <span class="ruby-identifier">minites</span> = <span class="ruby-value">0</span>
